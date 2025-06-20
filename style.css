@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+    display: flex;
+}
+
+.child{
+    margin: 1em;
+}
+
+.fC{
+    min-height: fit-content;
+    border: black solid 1 px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+/*link von der ersten seite*/
+a{
+    color: black;
+    text-decoration: none;
+}
+/*
+.flexChild{
+
+}
+*/
+
+/*Der Obere Teil der Website*/
+.willkommenOben{
+    background-color: rgb(254,250,224);
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+}
+
+.unterschrift{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/*Das Menue*/
+.menu{
+    text-align: center;
+    height: 20px;
+    background-color: rgb(254,250,224);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuLi{
+    float: left;
+    border-right: 1px solid black;
+}
+
+.menuUl li{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menuLi:last-child{
+    border-right: none;
+    float: right;
+}
+
+.menuLi a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.menuLi a:hover{
+    background-color: rgb(250,237,205);
+}
+
+/*Warum wir Bereich*/
+
+.bereiche{
+    margin: 0;
+    background-color: rgb(254,250,224);
+    border-top: 1px black solid;
+}
+
+.bereiche h2{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.punkte{
+    width: 33%;
+    height: fit-content;
+    background-color: rgb(250,237,205);
+    border-radius: 0.5em;
+}
+
+.punkte li{
+    list-style-type: none;
+    padding-top: 0.5em;
+    padding-left: 1em;
+}
+
+.punkte li:last-child{
+    padding-bottom: 0.5em;
+}
+
+.wir{
+    width: 66%;
+    height: fit-content;
+    background-color: rgb(250,237,205);
+    border-radius: 0.5em;
+}
+
+.wir p{
+    padding: 1em;
+    line-height: 25px;
+}
+
+/*Bereich von Post der Woche*/
+.podewo img{
+    padding: 0.25em;
+    height: 15em;
+    border: black solid 1px;
+    margin-bottom: 0;
+}
+
+.podewo p{
+    text-align: center;
+    padding-top: 3px;
+    margin-top: 0;
+}
+
+.podewo:hover{
+    transition: 0.3s;
+    transform: scale(1.13);
+}
+
+/*Bereich ganz unten*/
+.recht li{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.recht{
+    margin: 0;
+    padding: 1em;
+    width: 50%;
+    background-color: rgb(254,250,224);
+    border-top: 1px black solid;
+    min-height: 300px;
+}
+
+/*Bereiche von den Unterseiten*/
+.USeite{
+    padding: 1em;
+    background-color: rgb(254,250,224);
+    border-top: 1px solid black;
+}
+
+/*About seite*/
+#xxx{
+    flex-direction: column;
+    padding: 1em;
+    background-color: rgb(254,250,224);
+    gap: 1em;
+    align-items: center;
+    align-content: center;    
+}
+
+.nummerAbout{
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+/*Kaufen bereich*/
+.kaufen img{
+    height: 45em;
+    padding: 0.25em;
+    border: 1px black solid;
+    margin: 1em;
+}
+
+.auswahl{
+    padding: 1em;
+    padding-left: 1.5em;
+}
+
+.auswahlGröße{
+    padding-top: 1em;
+}
+
+.but{
+    width: 40px;
+    height: 20px;
+    border-radius: 1em;
+    border: 1px black solid;
+    background-color: rgb(254,250,224);
+    margin-right: 1em;
+}
+
+.but:hover{
+    background-color: rgb(250,237,205);
+}
+
+.but:active{
+    background-color: rgb(251,86,7);
+    transform: translateY(2px);
+}
+
+.textKauf{
+    margin: 1.5em;
+    padding: 1em;
+    height: fit-content;
+    border: 1px black solid;
+    border-radius: 1em;
+}
+
+.butKauf{
+    margin-left: 1.5em;
+    width: 100px;
+    height: 50px;
+    border: 1px black solid;
+    border-radius: 1em;
+    background-color: rgb(254,250,224);
+}
+
+.butKauf:hover{
+    background-color: rgb(250,237,205);
+}
+
+.butKauf:active{
+    background-color: rgb(251,86,7);
+    transform: translateY(2px);
+}
